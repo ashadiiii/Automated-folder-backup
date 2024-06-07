@@ -4,9 +4,10 @@ import shutil
 import datetime
 import schedule
 import time
+import sys
 
-source_dir = "/Users/ashadi/Heredity"
-destination_dir = "/Users/ashadi/backup_test"
+source_dir = sys.argv[1]
+destination_dir = sys.argv[2]
 
 def copy_folder_to_directory(source,dest):
 
