@@ -9,6 +9,7 @@ import sys
 source_dir = sys.argv[1]
 destination_dir = sys.argv[2]
 
+
 def copy_folder_to_directory(source,dest):
 
     today = datetime.date.today()
