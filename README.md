@@ -3,12 +3,12 @@ Automated folder backup system
 This automated system is created to build back-up directories of a specified directory in regular time intervals. The Automation system is created using the python language.
 
 The following libraries were utilized in the program. 
-- os library : To interact with the operating system of the device and build a relavant file path to store our backup directories
-- shutil : To copy the files from the selected directory and then paste it in the backup directory
-- datetime: The backfolders are organised according to the date the backup was done. Hence in order to gain access to the date this library is used.
-- schedule: To assign a specific time to do the backup daily
-- time: To freeze the program for a given time limit
-- sys: To retrieve the source directory and destination directory through the terminal arguments
+- os library :  To interact with the operating system of the device and build a relavant file path to store our backup directories
+- shutil :  To copy the files from the selected directory and then paste it in the backup directory
+- datetime:  The backfolders are organised according to the date the backup was done. Hence in order to gain access to the date this library is used.
+- schedule:  To assign a specific time to do the backup daily
+- time:  To freeze the program for a given time limit
+- sys:  To retrieve the source directory and destination directory through the terminal arguments
 
 project description
 
